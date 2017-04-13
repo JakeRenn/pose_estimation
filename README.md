@@ -10,7 +10,7 @@ Steps to run this project:
 
 run you model with folloing command
 
-  python train
+    python train
 or
 
-  ./script/run.sh
+    ./script/run.sh
