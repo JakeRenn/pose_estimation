@@ -1,0 +1,21 @@
+# python
+*.py[cod]
+*.so
+*.egg
+*.egg-info
+dist
+build
+
+data/*
+tmp
+test
+params/*
+log
+backup
+nohup.out
+#clear.sh
+*.backup
+
+
+#!data/python
+#!params
