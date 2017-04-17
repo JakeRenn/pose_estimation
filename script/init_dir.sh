@@ -1,8 +1,9 @@
 #!/bin/bash
 
-mkdir params
-mkdir log
-mkdir data
+mkdir -p params
+mkdir -p log
+mkdir -p data
 
-mkdir labels
-mkdir labels/txt
+mkdir -p labels
+mkdir -p labels/txt
+mkdir -p labels/python
