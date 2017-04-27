@@ -68,7 +68,7 @@ class CPM:
                 strides=[1, 2, 2, 1],
                 padding="SAME", name="pool3")
 
-        conv4 = self.conv_layer(conv3, 3, 384,
+        conv4 = self.conv_layer(pool3, 3, 384,
             'conv4', is_BN, trainable)
 
         conv5 = self.conv_layer(conv4, 3, 256,
